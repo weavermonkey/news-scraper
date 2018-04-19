@@ -1,0 +1,169 @@
+{
+  "site_config": [
+    {
+      "paper_name": "Quint",
+      "website_tld": "https://www.thequint.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Times Of India",
+      "website_tld": "https://timesofindia.indiatimes.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Daily O",
+      "website_tld": "https://www.dailyo.in/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Quartz",
+      "website_tld": "https://qz.com/india/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Scroll",
+      "website_tld": "https://scroll.in/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "DNA",
+      "website_tld": "http://www.dnaindia.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "First Post",
+      "website_tld": "http://www.firstpost.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Hans India",
+      "website_tld": "http://www.thehansindia.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Hindu",
+      "website_tld": "http://www.thehindu.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Hindu Business Line",
+      "website_tld": "https://www.thehindubusinessline.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Hindustan Times",
+      "website_tld": "https://www.hindustantimes.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Indian Express",
+      "website_tld": "http://indianexpress.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Mid-Day",
+      "website_tld": "https://www.mid-day.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Live Mint",
+      "website_tld": "https://www.livemint.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Mumbai Mirror",
+      "website_tld": "https://mumbaimirror.indiatimes.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Orissa POST",
+      "website_tld": "http://www.orissapost.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The New Indian Express",
+      "website_tld": "http://www.newindianexpress.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Pioneer",
+      "website_tld": "http://www.dailypioneer.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Sunday Guardian",
+      "website_tld": "https://www.sundayguardianlive.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Statesman",
+      "website_tld": "https://www.thestatesman.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Telegraph India",
+      "website_tld": "https://www.telegraphindia.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Tribune India",
+      "website_tld": "http://www.tribuneindia.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Kashmir Reader",
+      "website_tld": "https://kashmirreader.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Asian Age",
+      "website_tld": "http://www.asianage.com/content/about-us",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Bangalore Mirror",
+      "website_tld": "http://bangaloremirror.indiatimes.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The New Indian Express",
+      "website_tld": "http://www.newindianexpress.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Deccan Chronicle",
+      "website_tld": "https://www.deccanchronicle.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Deccan Herald",
+      "website_tld": "http://www.deccanherald.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Economic Times",
+      "website_tld": "https://economictimes.indiatimes.com",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "The Financial Express",
+      "website_tld": "http://www.financialexpress.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "My Digital FC",
+      "website_tld": "http://www.mydigitalfc.com/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Afternoon DC",
+      "website_tld": "http://www.afternoondc.in/",
+      "number_of_articles": ""
+    },
+    {
+      "paper_name": "Business Standard",
+      "website_tld": "http://www.business-standard.com/",
+      "number_of_articles": ""
+    }
+  ]
+}
