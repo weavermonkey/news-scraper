@@ -15,13 +15,11 @@ class NewspaperBuilder():
         self.config_obj.keep_article_html = True
         self.config_obj.http_success_only = False
         self.config_obj.MAX_TEXT = 999999
-        self.config_obj.verbose = True
-        self.file_path = os.path.join(os.path.join(os.getcwd(), 'data/tmp/articles'), file_index + '.csv')
+        #self.file_path = os.path.join(os.path.join(os.getcwd(), 'data/tmp/articles'), file_index + '.csv')
         self.file_write_time = file_index
         self.newspaper = newspaper.build(url=site_tld,config=self.config_obj)
 
     def article_downloader(self,article_url):
-        article_list = []
         article_dict = {'article_url':'','article_html':''}
         article = newspaper.Article(url=article_url, config=self.config_obj)
         try:
@@ -39,7 +37,6 @@ class NewspaperBuilder():
             article_dict['article_text'] = article.text
         except Exception as e:
             article_dict['article_url'] = article.url
-        article_list.append(article_dict)
         article_df = pd.DataFrame.from_dict([article_dict])
         return article_df
 
