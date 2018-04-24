@@ -73,11 +73,16 @@ def convert_dict_to_columns(input_df, dict_column, prefix=''):
     output_df = pd.concat([input_df, dict_df], axis=1).drop(columns=[dict_column])
     return output_df
 
-input_df = pd.read_csv('../data/tmp/site_responses/complete_html_2.csv')
-input_df = input_df[ input_df['article_text'].notnull() ].drop(columns=['download_time'])
-input_df['meta_content'] = input_df['article_html'].progress_apply(fetch_meta_attributes)
-input_df = input_df.drop(columns=['article_html'])
-columns = ['article_url','article_text','meta_content']
-input_df = input_df[columns]
-output_df = convert_dict_to_columns(input_df, dict_column='meta_content',prefix='meta_')
-output_df.to_csv('wololo.csv',index=False)
+def file_writer():
+    input_df = pd.read_csv('../data/tmp/site_responses/complete_html_2.csv').sample(500)
+    input_df = input_df[ input_df['article_html'].notnull() ].drop(columns=['download_time'])
+    input_df['meta_content'] = input_df['article_html'].progress_apply(fetch_meta_attributes)
+    input_df = input_df.drop(columns=['article_html'])
+    columns = ['article_url','article_text','meta_content']
+    input_df = input_df[columns]
+    output_df = convert_dict_to_columns(input_df, dict_column='meta_content',prefix='meta_')
+    output_df = output_df[ output_df['article_text'].notnull() ]
+    output_df.to_csv('../data/tmp/articles/wololo.csv',index=False)
+
+if __name__ == '__main__':
+    file_writer()
