@@ -74,7 +74,7 @@ def convert_dict_to_columns(input_df, dict_column, prefix=''):
     return output_df
 
 input_df = pd.read_csv('../data/tmp/site_responses/complete_html_2.csv')
-input_df = input_df[ input_df['article_html'].notnull() ].drop(columns=['download_time'])
+input_df = input_df[ input_df['article_text'].notnull() ].drop(columns=['download_time'])
 input_df['meta_content'] = input_df['article_html'].progress_apply(fetch_meta_attributes)
 input_df = input_df.drop(columns=['article_html'])
 columns = ['article_url','article_text','meta_content']
