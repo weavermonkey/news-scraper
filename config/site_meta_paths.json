@@ -1,0 +1,415 @@
+{
+  "newindianexpress": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "indianexpress": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "mid-day": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "business-standard": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "indiatimes": [
+    {
+      "name": [
+        "keywords",
+        "title",
+        "description"
+      ]
+    },
+    {
+      "property": "og:title"
+    }
+  ],
+  "dnaindia": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "bangaloremirror": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "thequint": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "keywords",
+        "title",
+        "description"
+      ]
+    }
+  ],
+  "thestatesman": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "kashmirreader": [
+    {
+      "property": [
+        "og:title",
+        "og:description"
+      ]
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "tribuneindia": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "thehindu": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "afternoondc": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "livemint": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "orissapost": [
+    {
+      "property": [
+        "og:title",
+        "og:description"
+      ]
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "hindustantimes": [
+    {
+      "property": [
+        "og:title",
+        "og:description"
+      ]
+    },
+    {
+      "name": "keywords"
+    }
+  ],
+  "speakingtree": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "thehansindia": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "telegraphindia": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "sundayguardianlive": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "asianage": [
+    {
+      "property": [
+        "og:title",
+        "og:description"
+      ]
+    },
+    {
+      "name": "Keywords"
+    }
+  ],
+  "dailyo": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "keywords",
+        "title",
+        "description"
+      ]
+    }
+  ],
+  "mydigitalfc": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "qz": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "news_keywords",
+        "description"
+      ]
+    }
+  ],
+  "femina": [
+    {
+      "name": [
+        "keywords",
+        "title",
+        "description"
+      ]
+    },
+    {
+      "property": "og:title"
+    }
+  ],
+  "deccanchronicle": [
+    {
+      "property": [
+        "og:title",
+        "og:description"
+      ]
+    },
+    {
+      "name": [
+        "Keywords"
+      ]
+    }
+  ],
+  "financialexpress": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "economictimes": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "dailypioneer": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "firstpost": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "thehindubusinessline": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "deccanherald": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "scroll": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ],
+  "cricbuzz": [
+    {
+      "property": "og:title"
+    },
+    {
+      "name": [
+        "title",
+        "keywords",
+        "description"
+      ]
+    }
+  ]
+}

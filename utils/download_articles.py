@@ -6,7 +6,6 @@ import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
 from utils.read_site_tlds import URLListBuilder
-import logging
 
 
 class NewspaperBuilder():
@@ -68,7 +67,7 @@ class FileWriter():
 
 
 def start_pipeline():
-    for curr_tld in tqdm(URLListBuilder().url_list[:10]):
+    for curr_tld in tqdm(URLListBuilder().url_list  ):
         curr_newspaper = NewspaperBuilder(site_tld=curr_tld)
         for curr_article in tqdm(curr_newspaper.newspaper.articles):
             curr_article_df = curr_newspaper.article_downloader(curr_article.url)
