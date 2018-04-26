@@ -26,7 +26,8 @@ class Preprocess():
                 stop_words = stopwords.words('english')
                 tokens.append( [x for x in curr_tokens if x.lower() not in stop_words ])
         else:
-            tokens.append( [ nltk.word_tokenize(curr_text) for curr_text in article_list  ])
+            for curr_text in article_list:
+                tokens =  [ nltk.word_tokenize(curr_text) for curr_text in article_list ]
         return tokens
 
 
