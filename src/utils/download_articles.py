@@ -5,7 +5,7 @@ import time
 import pandas as pd
 from tqdm import tqdm
 from pathlib import Path
-from utils.read_site_tlds import URLListBuilder
+from src.utils.read_site_tlds import URLListBuilder
 
 
 class NewspaperBuilder():
@@ -52,7 +52,7 @@ class DataFrameBuilder():
 
 
 class FileWriter():
-    def __init__(self, article_obj, file_path='../data/tmp/site_responses/complete_html.csv'):
+    def __init__(self, article_obj, file_path='../../data/tmp/site_responses/complete_html.csv'):
         try:
             if Path(file_path).exists():
                 article_obj.to_csv(file_path, mode='a', index=False, header=False, encoding='utf-8')
